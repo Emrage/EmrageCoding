@@ -1,0 +1,20 @@
+excluded-entities:
+  - ENDER_DRAGON
+  - ARMOR_STAND
+  - ILLUSIONER
+glowing-effect-duration: 60  # in ticks (3 seconds)
+sounds:
+  enabled: true
+  spawn: ENTITY_EXPERIENCE_ORB_PICKUP
+  glow-remove: ENTITY_EXPERIENCE_ORB_PICKUP
+debug-messages: true
+messages:
+  challenge-started: "Challenge started!"
+  challenge-in-progress: "A challenge is already in progress."
+  mob-spawned: "A {mob} has spawned!"
+  glowing-removed: "Removed glowing effect from entity: {mob}"
+  invulnerable-set: "Set entity {mob} to invulnerable for 1 second"
+  invulnerable-removed: "Removed invulnerability from entity: {mob}"
+  no-highest-block: "No highest block found at chunk center: {location}"
+  no-valid-mobs: "No valid mobs to spawn."
+  player-moved: "Player {player} moved from chunk {fromChunk} to chunk {toChunk}"
